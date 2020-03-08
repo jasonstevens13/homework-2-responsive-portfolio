@@ -9,11 +9,13 @@
   
 #footer {
     position: absolute;
-    bottom: -100;
-    width: 100%;
-    height:6rem;            /* Footer height */
+    right: 0;bottom:-100;left:0;
   }
 
 #navBarPadding {
     padding-bottom: 20px;
+}
+
+#imgSize{
+    max-height: 65%;
 }
