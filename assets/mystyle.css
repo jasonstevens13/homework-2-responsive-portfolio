@@ -10,6 +10,7 @@
 #footer {
     position: absolute;
     right: 0;bottom:-100;left:0;
+    margin-bottom: 0px;
   }
 
 #navBarPadding {
@@ -28,3 +29,4 @@ body {
 .opacity {
   opacity: 70%;
 }
+
