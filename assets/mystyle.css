@@ -21,8 +21,10 @@
 }
 
 body {
-
-  background-color: grey;
+  background-image: url("./images/backgroundpattern.png");
+  align-items: center;
 }
 
-
+.opacity {
+  opacity: 70%;
+}

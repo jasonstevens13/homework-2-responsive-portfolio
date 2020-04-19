@@ -15,7 +15,7 @@
 
 <body class="d-flex flex-column">
     <!-- Add navbar, change to dark class, add sticky-top, & add index link to the navbar brand -->
-    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark sticky-top container-fluid opacity">
         <a class="navbar-brand" href="./index.html">Jason Stevens</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,39 +35,42 @@
                     <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
             </ul>
-        </div>
-        <div>
 
-            <img class="nav-link" href="./assets/images/github.png">
+        </div>
+        <!-- add another navbar div for right aligned icon links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ml-auto">
+                <a class="navbar-brand" href="https://github.com/jasonstevens13" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="./assets/images/github.png" width="40" height="40" alt="GitHub">
+                </a>
+                <a class="navbar-brand" href="https://www.linkedin.com/in/jasoncharlesstevens" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="./assets/images/linkedin.png" width="40" height="40" alt="GitHub">
+                </a>
+                <a class="navbar-brand" href="#" target="_blank" rel="noopener noreferrer">
+                    <svg class="bi bi-file-text" width="40" height="40" viewBox="0 0 16 16" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M4 1h8a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V3a2 2 0 012-2zm0 1a1 1 0 00-1 1v10a1 1 0 001 1h8a1 1 0 001-1V3a1 1 0 00-1-1H4z"
+                            clip-rule="evenodd" />
+                        <path fill-rule="evenodd"
+                            d="M4.5 10.5A.5.5 0 015 10h3a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-2A.5.5 0 015 8h6a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-2A.5.5 0 015 6h6a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm0-2A.5.5 0 015 4h6a.5.5 0 010 1H5a.5.5 0 01-.5-.5z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+            </ul>
 
         </div>
 
     </nav>
-    <br>
 
-    <div class="container">
 
-        <div class="row">
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputName">Name</label>
-                    <input type="email" class="form-control" placeholder="Your Name">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="Enter email">
-                </div>
-                <div class="form-group">
-                    <label>Message</label>
-                    <input type="password" class="form-control" placeholder="Message">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
-    </div>
-    <br><br>
     <div>
         <!-- add style to footer to keep at bottom of page -->
-        <footer id="footer" class="sticky-footer py-4 bg-dark text-white-50">
+        <footer id="footer" class="sticky-footer py-4 footer-white text-white-50">
             <div class="container text-center">
                 <small>Copyright &copy; Jason Stevens</small>
             </div>
