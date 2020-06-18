@@ -39,3 +39,7 @@ footer {
   font-style: oblique;
 }
 
+#card {
+  max-width: 33%;
+  min-width: 33%;
+}
