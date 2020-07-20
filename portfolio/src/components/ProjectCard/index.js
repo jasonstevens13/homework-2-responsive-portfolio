@@ -68,7 +68,7 @@ function ProjectCard() {
                     <div className="row mb-3">
                         <div className="col mb-3"></div>
                         <div className="col-10 mb-3" id="card" key={project.id}>
-                            <div className="card h-100">
+                            <div className="card h-100 border-dark">
                                 <img className="card-img-top" src={project.img}></img>
                                 <div className="card-body">
                                     <h2 id="headline1" className="card-title titles">{project.title}</h2>
