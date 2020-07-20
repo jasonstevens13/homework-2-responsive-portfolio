@@ -3,6 +3,7 @@ import NavTabs from "./NavTabs";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Footer from "./Footer";
 
 class Portfolio extends Component {
   state = {
@@ -31,6 +32,7 @@ class Portfolio extends Component {
           handlePageChange={this.handlePageChange}
         />
         {this.renderPage()}
+        <Footer />
       </div>
     );
   }
