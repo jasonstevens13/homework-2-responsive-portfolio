@@ -1,4 +1,5 @@
 import React from "react";
+import "./mystyle.css";
 
 const projects = [
     {
@@ -54,20 +55,18 @@ const projects = [
 
 
 
-
-
-
 function ProjectCard() {
 
 
     return (
+
         <div className="float-left">
-            <div className="card-deck">
+            <div className="card-deck mt-3">
 
                 {projects.map(project => (
                     <div className="row mb-3">
                         <div className="col mb-3"></div>
-                        <div className="col-10 mb-3" id="card" key={project.id}>
+                        <div className="col-10 mb-3" id="projectCard" key={project.id}>
                             <div className="card h-100 border-dark">
                                 <img className="card-img-top" src={project.img}></img>
                                 <div className="card-body">

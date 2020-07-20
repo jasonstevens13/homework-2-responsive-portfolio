@@ -3,7 +3,9 @@ import ProjectCard from "../ProjectCard";
 
 const Projects = () => (
   <div>
-    <ProjectCard></ProjectCard>
+    <div className="container">
+      <ProjectCard></ProjectCard>
+    </div>
   </div >
 );
 
