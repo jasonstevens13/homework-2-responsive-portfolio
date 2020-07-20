@@ -27,14 +27,14 @@ const projects = [
         repo: "https://github.com/jasonstevens13/password-generator",
         deployed: "https://jasonstevens13.github.io/password-generator/"
     },
-    // {
-    //     id: 4,
-    //     img: "./images/coderefactor.jpg",
-    //     title: "Code Refactor",
-    //     p: "Fundementals in code updates.",
-    //     repo: "https://github.com/jasonstevens13/homework-1-code-refactor",
-    //     deployed: "https://jasonstevens13.github.io/code-refactor/"
-    // },
+    {
+        id: 4,
+        img: "./images/coderefactor.jpg",
+        title: "Code Refactor",
+        p: "Fundementals in code updates.",
+        repo: "https://github.com/jasonstevens13/homework-1-code-refactor",
+        deployed: "https://jasonstevens13.github.io/code-refactor/"
+    },
     {
         id: 5,
         img: "./images/burgerapp.JPG",
